@@ -11,7 +11,32 @@ Cowork plugins for creating native Google Docs and Slides in Amplitude's workspa
 
 Both plugins use Claude in Chrome to inject and run Apps Script — no manual coding required.
 
-## Installing
+## Quick setup with Claude CoWork (recommended)
+
+If you use Claude CoWork, you don't need to package or install anything manually — Claude handles the full setup.
+
+1. **Clone this repo** and open a CoWork session
+2. **Mount the cloned folder** in CoWork (drag it in or use the folder picker)
+3. **Ask Claude to set up the plugin you want**, e.g.:
+   > "Set up the amp-slide plugin from this repo"
+
+   Claude will:
+   - Package the plugin into a `.plugin` file
+   - Install it into your CoWork session
+   - Open `script.google.com` in Chrome and create the Apps Script project
+   - Run a test function to trigger Google's OAuth dialog
+   - Walk you through approving permissions
+
+4. Once OAuth is approved, **ask Claude to create a test doc or slide** to confirm everything works:
+   > "Create a test slide with a title and one bullet point"
+
+That's it — the plugin is ready to use for future requests.
+
+> **Note:** Make sure your Amplitude Google account is active in Chrome before step 3. Claude will check and prompt you to switch if needed.
+
+---
+
+## Manual install (without CoWork)
 
 ### Prerequisites
 
