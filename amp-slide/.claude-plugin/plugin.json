@@ -1,0 +1,9 @@
+{
+  "name": "amp-slide",
+  "version": "0.3.0",
+  "description": "Create native Google Slides in Amplitude's brand style using Google Apps Script",
+  "author": {
+    "name": "Sandhya Hegde"
+  },
+  "repository": "https://github.com/evenwing/claude-sh"
+}

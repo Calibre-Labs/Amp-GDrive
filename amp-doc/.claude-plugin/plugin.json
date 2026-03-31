@@ -1,0 +1,9 @@
+{
+  "name": "amp-doc",
+  "version": "0.3.0",
+  "description": "Create and edit native Google Docs in Amplitude's workspace with Poppins typography via Apps Script",
+  "author": {
+    "name": "Sandhya Hegde"
+  },
+  "repository": "https://github.com/evenwing/claude-sh"
+}
